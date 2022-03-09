@@ -61,21 +61,24 @@ puts "is number_students less than or equal to 21?" number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# True, because 4 is less than 9
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# False, because books is 3 and 4 is greater than 3
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# True, because 6 is more than 2
 
 attendees = 9;
 meals = 8;
 puts attendees != meals
 # YOU DO: Explain.
-
+# True because attendees does not equal meals
 
 #-------------------
 # PART 3: Logical Operators
@@ -97,15 +100,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+loves_to_play and loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play and loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play or loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+loves_to_play and age <= 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: I felt that 1 is still a puppy, so I coded to check if the age is equal or less than 1
